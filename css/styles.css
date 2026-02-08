@@ -144,7 +144,7 @@ footer{
 .navi .navi-link:hover::after,
 .navi .navi-link.active::after{
     width: 100%;
-    color: #404BBF;
+    background-color: #404BBF;
     
 }
 
@@ -313,7 +313,7 @@ main h2 {
     background-color: #F4F4FD;
     border: 1px solid #8E8F99;
     border-radius: 4px;
-    margin-bottom: 8px;
+    
     
 }
 
@@ -493,7 +493,7 @@ main h2 {
 .social-icon {
     width: 16px;
     height: 16px;
-    fill: #ffffff;
+    fill: #f4f4fd;
 }
 
 .portfolio{
@@ -728,7 +728,7 @@ main h2 {
     display: block;
     width: 24px;
     height: 24px;
-    fill: #ffffff;
+    fill: #f4f4fd;
     
 }
 
