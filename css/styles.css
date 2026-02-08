@@ -63,6 +63,10 @@ footer{
 .header {
     background-color: #FFFFFF;
     border-bottom: 1px solid #E7E9FC;  
+    box-shadow:
+        0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
        
 }
 
@@ -140,6 +144,7 @@ footer{
 .navi .navi-link:hover::after,
 .navi .navi-link.active::after{
     width: 100%;
+    color: #404BBF;
     
 }
 
@@ -167,13 +172,13 @@ footer{
     letter-spacing: 0.02em;
     color: #434455;
     display: inline-block;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mail-link:hover,
 .mail-link:focus{
     color: #404BBF;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .tel-link{
@@ -185,14 +190,14 @@ footer{
     letter-spacing: 0.02em;
     color: #434455;
     display: inline-block;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
 }
 
 .tel-link:hover,
 .tel-link:focus{
     color: #404BBF;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 
@@ -209,7 +214,8 @@ footer{
     display: flex;
     flex-direction: column;
     text-align: center;
-    max-width: 1440px
+    max-width: 1440px;
+    margin: 0 auto;
 
 }
 
@@ -300,13 +306,14 @@ main h2 {
 .features-box{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 264px;
     height: 112px;
     background-color: #F4F4FD;
     border: 1px solid #8E8F99;
     border-radius: 4px;
-    padding-top: 24px;
-    padding-left: 100px;
+    margin-bottom: 8px;
     
 }
 
@@ -648,8 +655,7 @@ main h2 {
 
 .footer-container {
     display: flex;
-    align-items:center;
-    
+    align-items:baseline;
     gap: 120px;
 }
 
@@ -663,21 +669,27 @@ main h2 {
 
 
 .footer-social {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     align-items:center;
     width: 208px;
     height: 80px;
-    margin-left: 540px;
-    transform: translateY(-111px);
-    margin-left: 120px;
-    padding-top: 120px;
+    
     
 
 }
 
 .footer-social-title{
     display: flex;
+    align-self: flex-start;
+    text-align: left;
     padding-bottom: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
 
 }
 
