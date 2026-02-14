@@ -124,6 +124,10 @@ footer{
     
 }
 
+.navi-link.active{
+    color: #404bbf;
+}
+
 .navi .navi-link:hover,
 .navi .navi-link:focus{
     color: #404BBF;
@@ -133,7 +137,7 @@ footer{
 .navi .navi-link::after {
     content: "";
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     width: 0;
     height: 4px;
     border-radius: 2px;
